@@ -1,48 +1,166 @@
-	body{
-		margin: 0;
-		background-color: #566D7E;
-	}	
 
 
-
-
-
-	header{
-			background-color: #033E3E;
-			color: white;
-			padding: 10px;
-			font-family:"Comic Sans Ms" , Arial;
-			text-align: center;
-		}
-
-	nav{
-		overflow: hidden;
-		background-color: #333;
-		
-	    }
-
-	nav a{
-			float: left;
-			color: #fff;
-			padding: 14px 16px;
-			text-decoration: none;
-	}
-
-	nav a:hover{
-			background-color:royalblue;
-			color: white;
-
-			}
-
-
-
-
-	footer{
-		background-color: green;
-		color: white;
-		text-align: center;
-		padding: 5px;
-	}
-
-
-	
+img {
+	border-radius: 50%;
+  }
+  
+  
+  
+  
+	  header{
+			  background-color: #033E3E;
+			  color: white;
+			  padding: 10px;
+			  font-family:"Comic Sans Ms" , Arial;
+			  text-align: center;
+		  }
+  
+	  nav{
+		  overflow: hidden;
+		  background-color: #333;
+		  
+		  }
+  
+	  nav a{
+			  float: left;
+			  color: #fff;
+			  padding: 14px 16px;
+			  text-decoration: none;
+	  }
+  
+	  nav a:hover{
+			  background-color:royalblue;
+			  color: white;
+  
+			  }
+  
+  
+  p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+  }
+  
+  
+  
+  a {
+	color: #1abc9c;
+	text-decoration: none;
+	background-color: transparent;
+  }
+  a:hover {
+	color: #117964;
+	text-decoration: underline;
+  }
+  
+  a:not([href]):not([class]) {
+	color: inherit;
+	text-decoration: none;
+  }
+  a:not([href]):not([class]):hover {
+	color: inherit;
+	text-decoration: none;
+  }
+  
+  
+  
+  /* For Image  */
+  
+	  img {
+	vertical-align: middle; 
+	border-style:solid;
+  }
+  
+  
+	  footer{
+		  background-color: green;
+		  color: white;
+		  text-align: center;
+		  padding: 5px;
+	  }
+  
+  
+  
+  
+  /* from other sources  */
+  
+  
+	  html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+  }
+  
+  body {
+	margin: 0;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+  }
+  
+  [tabindex="-1"]:focus:not(:focus-visible) {
+	outline: 0 !important;
+  }
+  
+  
+  
+  
+  
+  address {
+	margin-bottom: 1rem;
+	font-style: normal;
+	line-height: inherit;
+  }
+  
+  ol,
+  ul,
+  dl {
+	margin-top: 0;
+	margin-bottom: 1rem;
+  }
+  
+  ol ol,
+  ul ul,
+  ol ul,
+  ul ol {
+	margin-bottom: 0;
+  }
+  
+  dt {
+	font-weight: 700;
+  }
+  
+  dd {
+	margin-bottom: 0.5rem;
+	margin-left: 0;
+  }
+  
+  
+  
+  fieldset {
+	min-width: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+  }
+  
+  legend {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	line-height: inherit;
+	color: inherit;
+	white-space: normal;
+  }
+  
