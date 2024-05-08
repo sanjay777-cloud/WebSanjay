@@ -19,11 +19,12 @@ header{
 	  nav{
 		  overflow: hidden;
 		  background-color:deepskyblue;
-		  
+
+		 
 		  }
   
 	  nav a{
-			  float: left;
+			 float: left;
 			  color: #fff;
 			  padding: 14px 16px;
 			  text-decoration: none;
@@ -39,6 +40,7 @@ header{
 			  address {
   			display: block;
  				 font-style: italic;
+ 				 
 								}
 
 
