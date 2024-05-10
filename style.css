@@ -14,34 +14,54 @@ header{
 			  text-align: center;
 			}
 
+
+			footer {
+			padding: 5px;
+			background:skyblue;
+			color: black;
+		}
+
+				body{
+					padding:0px;
+					margin:0px;
+					background-color:lightslategrey;
+					text-align: center;
+					text-justify: inter-word;
+				
+
+				}
+
   
 	  
 	  nav{
 		  overflow: hidden;
-		  background-color:deepskyblue;
+		  background-color:black;
 
 		 
 		  }
   
 	  nav a{
-			 float: left;
+			 float:left;
 			  color: #fff;
 			  padding: 14px 16px;
 			  text-decoration: none;
-			  background-color: deepskyblue;
+			  background-color:black;
 	  }
   
 	  nav a:hover{
-			  background-color:royalblue;
-			  color: white;
+			  background-color:orangered;
+			  color:darkblue;
   
 			  }
   
 			  address {
   			display: block;
- 				 font-style: italic;
+ 				font-style: italic;
+				
+ 							 }
+
  				 
-								}
+			
 
 
 
@@ -63,10 +83,45 @@ header{
 	t
   }
   
+.banner-card{
+	position: relative;
+}
+
+  .banner-card img{
+  		max-width: 100%;
+  		height:auto;
+  }
+
+  .banner-text{
+  				position: absolute;
+  				top:5%;
+  				color: #fff;
+  				padding: 5px;
 
 
+  }
+
+    .banner-text h1{
+  				font-size: 37px;
+  				text-transform: uppercase;
+  				font-weight: bold;
+  				margin-bottom: 0px;
+
+  }
+
+   .banner-text p{
+  				font-size: 15px;
+  				font-weight:bold;
+  				margin-bottom: 5px;
+  				color: darkred;
 
 
+  }
+
+
+  		  .banner-text img{
+  				float:top;
+  			}
 
 
   	.container{
@@ -157,38 +212,7 @@ header{
   
   
   
-  
-  
-  address {
-	margin-bottom: 1rem;
-	font-style: normal;
-	line-height: inherit;
-  }
-  
-  ol,
-  ul,
-  dl {
-	margin-top: 0;
-	margin-bottom: 1rem;
-  }
-  
-  ol ol,
-  ul ul,
-  ol ul,
-  ul ol {
-	margin-bottom: 0;
-  }
-  
-  dt {
-	font-weight: 700;
-  }
-  
-  dd {
-	margin-bottom: 0.5rem;
-	margin-left: 0;
-  }
-  
-  
+
   
   fieldset {
 	min-width: 0;
