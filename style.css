@@ -11,7 +11,7 @@ header{
 	background-color: #033E3E;
 			  color: white;
 			  padding: 10px;
-			  text-align: center;
+			  
 			}
 
 
@@ -46,13 +46,17 @@ header{
 			  padding: 14px 16px;
 			  text-decoration: none;
 			  background-color:black;
+
 	  }
   
 	  nav a:hover{
 			  background-color:orangered;
 			  color:darkblue;
+
   
 			  }
+
+		
   
 			  address {
   			display: block;
@@ -133,10 +137,11 @@ header{
 
   div {
   text-align:justify-all;
-  text-justify: inter-word;
-}
-  
-  
+  text-justify: inter-word;  
+  }
+
+
+
   a {
 	color: #1abc9c;
 	text-decoration: none;
